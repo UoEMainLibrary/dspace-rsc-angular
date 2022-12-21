@@ -43,6 +43,8 @@ export class ThumbnailComponent implements OnChanges {
    */
   @Input() alt? = 'thumbnail.default.alt';
 
+  @Input() altTitle: string;
+
   /**
    * i18n key of HTML placeholder text
    */

@@ -6,7 +6,7 @@
     </ds-thumbnail>
     </a>
     <span *ngIf="linkType == linkTypes.None" class="dont-break-out">
-    <ds-thumbnail [thumbnail]="dso?.thumbnail | async" [limitWidth]="true">
+    <ds-thumbnail [thumbnail]="dso?.thumbnail | async" [limitWidth]="true" [altTitle]="dso.firstMetadataValue('dc.title')">
     </ds-thumbnail>
     </span>
   </div>
@@ -35,7 +35,7 @@
           </span>
         </span>
       </ds-truncatable-part>
-    </span>
+      </span>
       <div *ngIf="dso.firstMetadataValue('dc.description.abstract')" class="item-list-abstract">
         <ds-truncatable-part [id]="dso.id" [minLines]="3"><span
           [innerHTML]="firstMetadataValue('dc.description.abstract')"></span>
