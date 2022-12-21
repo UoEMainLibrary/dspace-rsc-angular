@@ -6,7 +6,7 @@
     </ds-thumbnail>
     </a>
     <span *ngIf="linkType == linkTypes.None" class="dont-break-out">
-    <ds-thumbnail [thumbnail]="dso?.thumbnail | async" [limitWidth]="true" [altTitle]="dso.firstMetadataValue('dc.title')">
+    <ds-thumbnail [thumbnail]="dso?.thumbnail | async" [limitWidth]="true">
     </ds-thumbnail>
     </span>
   </div>
