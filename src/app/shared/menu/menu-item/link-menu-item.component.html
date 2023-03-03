@@ -1,7 +1,13 @@
 
 <a class="nav-item nav-link"
+<<<<<<< HEAD
    [ngClass]="{ 'disabled': !hasLink }"
    [attr.aria-disabled]="!hasLink"
+=======
+   [ngClass]="{ 'disabled': !hasLink || item.disabled }"
+   [attr.aria-disabled]="!hasLink || item.disabled"
+   [title]="item.text | translate"
+>>>>>>> 1d58910d70f3d32d46d0cca2460f79f5d8b7dff1
    [routerLink]="getRouterLink()"
    [queryParams]="item.queryParams"
    (click)="$event.stopPropagation()"
