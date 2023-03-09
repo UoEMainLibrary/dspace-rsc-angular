@@ -1362,7 +1362,7 @@
   // "collection.listelement.badge": "Collection",
   "collection.listelement.badge": "Collection",
 
-  // "collection.page.browse.recent.head": "Recent Submissions",
+  // "collection.page.browse.recent.head": "Recently Added",
   "collection.page.browse.recent.head": "Dépôts récents",
 
   // "collection.page.browse.recent.empty": "No items to show",
@@ -1728,7 +1728,7 @@
   // "cookies.consent.content-modal.description": "Here you can see and customize the information that we collect about you.",
   "cookies.consent.content-modal.description": "Vous pouvez voir et personnaliser ici les données que nous recueillons à votre sujet.",
 
-  // "cookies.consent.content-modal.privacy-policy.name": "privacy policy",
+  // "cookies.consent.content-modal.privacy-policy.name": "Takedown Policy",
   "cookies.consent.content-modal.privacy-policy.name": "politique de protection de la vie privée",
 
   // "cookies.consent.content-modal.privacy-policy.text": "To learn more, please read our {privacyPolicy}.",
@@ -1941,7 +1941,7 @@
   // "error.objects": "Error fetching objects",
   "error.objects": "Erreur lors de la récupération des objets",
 
-  // "error.recent-submissions": "Error fetching recent submissions",
+  // "error.recent-submissions": "Error fetching Recently Added",
   "error.recent-submissions": "Erreur lors de la récupération des dépôts récents",
 
   // "error.search-results": "Error fetching search results",
@@ -1998,7 +1998,7 @@
   // "footer.link.cookies": "Cookie settings",
   "footer.link.cookies": "Paramètres des témoins de connexion",
 
-  // "footer.link.privacy-policy": "Privacy policy",
+  // "footer.link.privacy-policy": "Takedown Policy",
   "footer.link.privacy-policy": "Politique de protection de la vie privée",
 
   // "footer.link.end-user-agreement":"End User Agreement",
@@ -3370,7 +3370,7 @@
   // "loading.objects": "Loading...",
   "loading.objects": "En cours de chargement...",
 
-  // "loading.recent-submissions": "Loading recent submissions...",
+  // "loading.recent-submissions": "Loading Recently Added...",
   "loading.recent-submissions": "Dépôts récents en cours de chargement...",
 
   // "loading.search-results": "Loading search results...",

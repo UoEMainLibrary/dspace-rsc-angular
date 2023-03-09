@@ -3,7 +3,7 @@ import { TEST_SUBMIT_USER, TEST_SUBMIT_USER_PASSWORD, TEST_SUBMIT_COLLECTION_NAM
 import { testA11y } from 'cypress/support/utils';
 
 describe('My DSpace page', () => {
-    it('should display recent submissions and pass accessibility tests', () => {
+    it('should display Recently Added and pass accessibility tests', () => {
         cy.visit('/mydspace');
 
         // This page is restricted, so we will be shown the login form. Fill it out & submit.

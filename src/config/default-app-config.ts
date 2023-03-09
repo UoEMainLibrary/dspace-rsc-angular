@@ -392,14 +392,14 @@ export class DefaultAppConfig implements AppConfig {
     image: false,
     video: false
   };
-  // Whether the end-user-agreement and privacy policy feature should be enabled or not.
+  // Whether the end-user-agreement and Takedown Policy feature should be enabled or not.
   // Disabling the end user agreement feature will result in:
   // - Users no longer being forced to accept the end-user-agreement before they can access the repository
   // - A 404 page if you manually try to navigate to the end-user-agreement page at info/end-user-agreement
   // - All end-user-agreement related links and pages will be removed from the UI (e.g. in the footer)
-  // Disabling the privacy policy feature will result in:
-  // - A 404 page if you manually try to navigate to the privacy policy page at info/privacy
-  // - All mentions of the privacy policy being removed from the UI (e.g. in the footer)
+  // Disabling the Takedown Policy feature will result in:
+  // - A 404 page if you manually try to navigate to the Takedown Policy page at info/privacy
+  // - All mentions of the Takedown Policy being removed from the UI (e.g. in the footer)
   info: InfoConfig = {
     enableEndUserAgreement: true,
     enablePrivacyStatement: true

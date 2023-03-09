@@ -1260,7 +1260,7 @@
   "collection.listelement.badge": "Зібрання",
 
 
-//"home.recent-submissions.head": "Recent Submissions",
+//"home.recent-submissions.head": "Recently Added",
 "home.recent-submissions.head": "Нові надходження",
 
 
@@ -1289,7 +1289,7 @@
 
 
 
-  // "collection.page.browse.recent.head": "Recent Submissions",
+  // "collection.page.browse.recent.head": "Recently Added",
   "collection.page.browse.recent.head": "Нові надходження",
 
   // "collection.page.browse.recent.empty": "No items to show",
@@ -1632,7 +1632,7 @@
   // "cookies.consent.content-modal.description": "Here you can see and customize the information that we collect about you.",
   "cookies.consent.content-modal.description": "Тут ви можете переглянути та налаштувати збір інформаціїпро Вас.",
 
-  // "cookies.consent.content-modal.privacy-policy.name": "privacy policy",
+  // "cookies.consent.content-modal.privacy-policy.name": "Takedown Policy",
    "cookies.consent.content-modal.privacy-policy.name": "політика приватності",
 
   // "cookies.consent.content-modal.privacy-policy.text": " {privacyPolicy}.",
@@ -1820,7 +1820,7 @@
   // "error.objects": "Error fetching objects",
   "error.objects": "Виникла помилка при отриманні об'єктів",
 
-  // "error.recent-submissions": "Error fetching recent submissions",
+  // "error.recent-submissions": "Error fetching Recently Added",
   "error.recent-submissions": "Виникла помилка при отриманні останніх submissions ",
 
   // "error.search-results": "Error fetching search results",
@@ -1867,7 +1867,7 @@
   // "footer.link.cookies": "Cookie settings",
     "footer.link.cookies": "Налаштування куків",
 
-  // "footer.link.privacy-policy": "Privacy policy",
+  // "footer.link.privacy-policy": "Takedown Policy",
    "footer.link.privacy-policy": "Політика приватності",
 
   // "footer.link.end-user-agreement":"End User Agreement",
@@ -2996,7 +2996,7 @@
   // "loading.objects": "Loading...",
   "loading.objects": "Вантажиться...",
 
-  // "loading.recent-submissions": "Loading recent submissions...",
+  // "loading.recent-submissions": "Loading Recently Added...",
   "loading.recent-submissions": "Вантажаться останні підписки...",
 
   // "loading.search-results": "Loading search results...",

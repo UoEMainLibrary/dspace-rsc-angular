@@ -1196,7 +1196,7 @@
   
   
   
-  // "collection.page.browse.recent.head": "Recent Submissions",
+  // "collection.page.browse.recent.head": "Recently Added",
   "collection.page.browse.recent.head": "Son Başvurular",
   
   // "collection.page.browse.recent.empty": "No items to show",
@@ -1510,7 +1510,7 @@
   // "cookies.consent.content-modal.description": "Here you can see and customize the information that we collect about you.",
   "cookies.consent.content-modal.description": "Burada, sizin hakkınızda topladığımız bilgileri görebilir ve özelleştirebilirsiniz.",
   
-  // "cookies.consent.content-modal.privacy-policy.name": "privacy policy",
+  // "cookies.consent.content-modal.privacy-policy.name": "Takedown Policy",
   "cookies.consent.content-modal.privacy-policy.name": "Gizlilik Politikası",
   
   // "cookies.consent.content-modal.privacy-policy.text": "To learn more, please read our {privacyPolicy}.",
@@ -1704,7 +1704,7 @@
   // "error.objects": "Error fetching objects",
   "error.objects": "Alınan nesneler hatası",
   
-  // "error.recent-submissions": "Error fetching recent submissions",
+  // "error.recent-submissions": "Error fetching Recently Added",
   "error.recent-submissions": "Son başvuruları alma hatası",
   
   // "error.search-results": "Error fetching search results",
@@ -1750,7 +1750,7 @@
   // "footer.link.cookies": "Cookie settings",
   "footer.link.cookies": "Çerez Ayarları",
   
-  // "footer.link.privacy-policy": "Privacy policy",
+  // "footer.link.privacy-policy": "Takedown Policy",
   "footer.link.privacy-policy": "Gizlilik Politikası",
   
   // "footer.link.end-user-agreement":"End User Agreement",
@@ -2876,7 +2876,7 @@
   // "loading.objects": "Loading...",
   "loading.objects": "Yükleniyor...",
   
-  // "loading.recent-submissions": "Loading recent submissions...",
+  // "loading.recent-submissions": "Loading Recently Added...",
   "loading.recent-submissions": "Son gönderiler yükleniyor...",
   
   // "loading.search-results": "Loading search results...",

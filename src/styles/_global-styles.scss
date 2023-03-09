@@ -251,3 +251,34 @@ ul.dso-edit-menu-dropdown > li .nav-item.nav-link {
 .table td {
   vertical-align: middle;
 }
+
+// Customisations
+.main-content {
+  margin-top: 0!important;
+}
+
+a:link, a:visited, a {
+  color: #080c54!important;
+}
+a:hover, a:focus {
+  text-decoration: none;
+  color: #6262DA!important;
+}
+
+.badge-info {
+  background-color: #6D72AB!important;
+}
+.btn-primary {
+  background-color: #6D72AB!important;
+  border-color: #50547f!important;
+}
+.btn-primary:hover {
+  background-color: #373a58!important;
+}
+.disabled-btn {
+  background-color:#373a58!important;
+}
+
+footer {
+  background-color: #6D72AB!important;
+}

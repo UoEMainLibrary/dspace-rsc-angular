@@ -1445,7 +1445,7 @@
 
 
 
-  // "collection.page.browse.recent.head": "Recent Submissions",
+  // "collection.page.browse.recent.head": "Recently Added",
   "collection.page.browse.recent.head": "Соңғы Материалдар",
 
   // "collection.page.browse.recent.empty": "No items to show",
@@ -1851,7 +1851,7 @@
   // "cookies.consent.content-modal.description": "Here you can see and customize the information that we collect about you.",
   "cookies.consent.content-modal.description": "Мұнда сіз туралы жиналған ақпаратты көре және баптай аласыз",
 
-  // "cookies.consent.content-modal.privacy-policy.name": "privacy policy",
+  // "cookies.consent.content-modal.privacy-policy.name": "Takedown Policy",
   "cookies.consent.content-modal.privacy-policy.name": "Конфиденциальді ақпарат ережелері",
 
   // "cookies.consent.content-modal.privacy-policy.text": "To learn more, please read our {privacyPolicy}.",
@@ -2110,7 +2110,7 @@
   // "error.objects": "Error fetching objects",
   "error.objects":"Нысандарды алу қатесі",
 
-  // "error.recent-submissions": "Error fetching recent submissions",
+  // "error.recent-submissions": "Error fetching Recently Added",
   "error.recent-submissions":"Соңғы жіберілімдерді алу қатесі",
 
   // "error.search-results": "Error fetching search results",
@@ -2174,7 +2174,7 @@
   // "footer.link.cookies": "Cookie settings",
   "footer.link.cookies": "Cookie параметрлері",
 
-  // "footer.link.privacy-policy": "Privacy policy",
+  // "footer.link.privacy-policy": "Takedown Policy",
   "footer.link.privacy-policy": "Құпиялылық саясаты",
 
   // "footer.link.end-user-agreement":"End User Agreement",
@@ -3721,7 +3721,7 @@
   // "loading.objects": "Loading...",
   "loading.objects":"Жүктеу...",
 
-  // "loading.recent-submissions": "Loading recent submissions...",
+  // "loading.recent-submissions": "Loading Recently Added...",
   "loading.recent-submissions": "Соңғы жіберілімдер жүктелуде...",
 
   // "loading.search-results": "Loading search results...",
@@ -7076,7 +7076,7 @@
   // "person.orcid.registry.auth": "ORCID Authorizations",
   "person.orcid.registry.auth": "ORCID Ауторизациясы",
 
-  // "home.recent-submissions.head": "Recent Submissions",
+  // "home.recent-submissions.head": "Recently Added",
   "home.recent-submissions.head": "Соңғы материалдар",
   
 }

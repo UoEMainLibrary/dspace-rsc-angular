@@ -55,3 +55,29 @@ a.navbar-brand img {
     color: var(--ds-navbar-link-color-hover);
   }
 }
+
+.navbar {
+  height: 9rem!important;
+}
+nav.navbar {
+  border-bottom: none!important;
+}
+.navbar-logo-top {
+  max-height: 4.5rem!important;
+  //margin-top: -3.6rem!important;
+}
+.navbar-brand {
+  margin-right: 5rem!important;
+}
+.navbar-inner-container {
+  display: inline-block!important;
+  background-image: url("/assets/images/rsc-logo/rsc-logo-lower.png");
+  background-repeat: repeat-x;
+  background-size: 24.5rem;
+  background-position:bottom left -0.8rem;
+  bottom: 0;
+}
+
+.second-navbar {
+  height: 3rem;
+}

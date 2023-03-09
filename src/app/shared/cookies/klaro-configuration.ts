@@ -56,7 +56,7 @@ export const klaroConfiguration: any = {
   translations: {
     /*
       The `zz` key contains default translations that will be used as fallback values.
-      This can e.g. be useful for defining a fallback privacy policy URL.
+      This can e.g. be useful for defining a fallback Takedown Policy URL.
       FOR DSPACE: We use 'zz' to map to our own i18n translations for klaro, see
       translateConfiguration() in browser-klaro.service.ts. All the below i18n keys are specified
       in your /src/assets/i18n/*.json5 translation pack.

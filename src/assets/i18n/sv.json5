@@ -1388,7 +1388,7 @@
 
 
 
-  // "collection.page.browse.recent.head": "Recent Submissions",
+  // "collection.page.browse.recent.head": "Recently Added",
   "collection.page.browse.recent.head": "Senast publicerade",
 
   // "collection.page.browse.recent.empty": "No items to show",
@@ -1783,7 +1783,7 @@
   // "cookies.consent.content-modal.description": "Here you can see and customize the information that we collect about you.",
   "cookies.consent.content-modal.description": "Se och anpassa den information som vi samlar in.",
 
-  // "cookies.consent.content-modal.privacy-policy.name": "privacy policy",
+  // "cookies.consent.content-modal.privacy-policy.name": "Takedown Policy",
   "cookies.consent.content-modal.privacy-policy.name": "personuppgifter och cookies",
 
   // "cookies.consent.content-modal.privacy-policy.text": "To learn more, please read our {privacyPolicy}.",
@@ -2016,7 +2016,7 @@
   // "error.objects": "Error fetching objects",
   "error.objects": "Ett fel uppstod när objekt hämtades",
 
-  // "error.recent-submissions": "Error fetching recent submissions",
+  // "error.recent-submissions": "Error fetching Recently Added",
   "error.recent-submissions": "Ett fel uppstod när senste bidrag hämtades",
 
   // "error.search-results": "Error fetching search results",
@@ -2078,9 +2078,9 @@
   // "footer.link.cookies": "Cookie settings",
   "footer.link.cookies": "Cookieinställningar",
 
-  // "footer.link.privacy-policy": "Privacy policy",
+  // "footer.link.privacy-policy": "Takedown Policy",
   // TODO New key - Add a translation
-  "footer.link.privacy-policy": "Privacy policy",
+  "footer.link.privacy-policy": "Takedown Policy",
 
   // "footer.link.end-user-agreement":"End User Agreement",
   // TODO New key - Add a translation
@@ -3535,7 +3535,7 @@
   // "loading.objects": "Loading...",
   "loading.objects": "Hämtar...",
 
-  // "loading.recent-submissions": "Loading recent submissions...",
+  // "loading.recent-submissions": "Loading Recently Added...",
   "loading.recent-submissions": "Hämtar de senaste bidragen...",
 
   // "loading.search-results": "Loading search results...",

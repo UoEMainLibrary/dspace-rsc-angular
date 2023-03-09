@@ -1468,7 +1468,7 @@
 
 
 
-  // "collection.page.browse.recent.head": "Recent Submissions",
+  // "collection.page.browse.recent.head": "Recently Added",
   "collection.page.browse.recent.head": "Envíos recientes",
 
   // "collection.page.browse.recent.empty": "No items to show",
@@ -1865,7 +1865,7 @@
   // "cookies.consent.content-modal.description": "Here you can see and customize the information that we collect about you.",
   "cookies.consent.content-modal.description": "Aquí puede ver y personalizar la información que recopilamos sobre usted.",
 
-  // "cookies.consent.content-modal.privacy-policy.name": "privacy policy",
+  // "cookies.consent.content-modal.privacy-policy.name": "Takedown Policy",
   "cookies.consent.content-modal.privacy-policy.name": "política de privacidad",
 
   // "cookies.consent.content-modal.privacy-policy.text": "To learn more, please read our {privacyPolicy}.",
@@ -2173,7 +2173,7 @@
   // "error.objects": "Error fetching objects",
   "error.objects": "Error al recuperar objetos",
 
-  // "error.recent-submissions": "Error fetching recent submissions",
+  // "error.recent-submissions": "Error fetching Recently Added",
   "error.recent-submissions": "Error al recuperar los envíos recientes",
 
   // "error.search-results": "Error fetching search results",
@@ -2237,7 +2237,7 @@
   // "footer.link.cookies": "Cookie settings",
   "footer.link.cookies": "Configuración de cookies",
 
-  // "footer.link.privacy-policy": "Privacy policy",
+  // "footer.link.privacy-policy": "Takedown Policy",
   "footer.link.privacy-policy": "Política de privacidad",
 
   // "footer.link.end-user-agreement":"End User Agreement",
@@ -3775,7 +3775,7 @@
   // "loading.objects": "Loading...",
   "loading.objects": "Cargando...",
 
-  // "loading.recent-submissions": "Loading recent submissions...",
+  // "loading.recent-submissions": "Loading Recently Added...",
   "loading.recent-submissions": "Cargando envíos recientes...",
 
   // "loading.search-results": "Loading search results...",
@@ -7145,7 +7145,7 @@
 
   // "person.orcid.registry.auth": "ORCID Authorizations",
   "person.orcid.registry.auth": "Autorizaciones ORCID",
-  // "home.recent-submissions.head": "Recent Submissions",
+  // "home.recent-submissions.head": "Recently Added",
   "home.recent-submissions.head": "Envíos recientes",
 
   // "listable-notification-object.default-message": "This object couldn't be retrieved",

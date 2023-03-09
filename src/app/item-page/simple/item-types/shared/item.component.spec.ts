@@ -489,7 +489,7 @@ describe('ItemComponent', () => {
         expect(val).toBeTrue();
       });
     });
-    it('should show back button for recent submissions', () => {
+    it('should show back button for Recently Added', () => {
       spyOn(mockRouteService, 'getPreviousUrl').and.returnValue(observableOf(recentSubmissionsUrl));
       comp.ngOnInit();
       comp.showBackButton.subscribe((val) => {

@@ -1196,7 +1196,7 @@
 
 
 
-  // "collection.page.browse.recent.head": "Recent Submissions",
+  // "collection.page.browse.recent.head": "Recently Added",
   "collection.page.browse.recent.head": "Viimeksi lisätyt",
 
   // "collection.page.browse.recent.empty": "No items to show",
@@ -1510,7 +1510,7 @@
   // "cookies.consent.content-modal.description": "Here you can see and customize the information that we collect about you.",
   "cookies.consent.content-modal.description": "Tässä voit tarkastella ja räätälöidä meidän sinusta keräämäämme tietoa.",
 
-  // "cookies.consent.content-modal.privacy-policy.name": "privacy policy",
+  // "cookies.consent.content-modal.privacy-policy.name": "Takedown Policy",
   "cookies.consent.content-modal.privacy-policy.name": "yksilönsuoja",
 
   // "cookies.consent.content-modal.privacy-policy.text": "To learn more, please read our {privacyPolicy}.",
@@ -1704,7 +1704,7 @@
   // "error.objects": "Error fetching objects",
   "error.objects": "Virhe kohteita noudettaessa",
 
-  // "error.recent-submissions": "Error fetching recent submissions",
+  // "error.recent-submissions": "Error fetching Recently Added",
   "error.recent-submissions": "Virhe viimeksi lisättyjä julkaisuja noudettaessa",
 
   // "error.search-results": "Error fetching search results",
@@ -1750,7 +1750,7 @@
   // "footer.link.cookies": "Cookie settings",
   "footer.link.cookies": "Evästeasetukset",
 
-  // "footer.link.privacy-policy": "Privacy policy",
+  // "footer.link.privacy-policy": "Takedown Policy",
   "footer.link.privacy-policy": "Yksilönsuoja",
 
   // "footer.link.end-user-agreement":"End User Agreement",
@@ -2875,7 +2875,7 @@
   // "loading.objects": "Loading...",
   "loading.objects": "Ladataan...",
 
-  // "loading.recent-submissions": "Loading recent submissions...",
+  // "loading.recent-submissions": "Loading Recently Added...",
   "loading.recent-submissions": "Ladataan viimeksi lisättyjä...",
 
   // "loading.search-results": "Loading search results...",

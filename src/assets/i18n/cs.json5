@@ -1554,7 +1554,7 @@
   
   
   
-  // "collection.page.browse.recent.head": "Recent Submissions",
+  // "collection.page.browse.recent.head": "Recently Added",
   "collection.page.browse.recent.head": "Poslední příspěvky",
   
   // "collection.page.browse.recent.empty": "No items to show",
@@ -1957,9 +1957,9 @@
   // TODO New key - Add a translation
   "cookies.consent.content-modal.description": "Here you can see and customize the information that we collect about you.",
   
-  // "cookies.consent.content-modal.privacy-policy.name": "privacy policy",
+  // "cookies.consent.content-modal.privacy-policy.name": "Takedown Policy",
   // TODO New key - Add a translation
-  "cookies.consent.content-modal.privacy-policy.name": "privacy policy",
+  "cookies.consent.content-modal.privacy-policy.name": "Takedown Policy",
   
   // "cookies.consent.content-modal.privacy-policy.text": "To learn more, please read our {privacyPolicy}.",
   // TODO New key - Add a translation
@@ -2204,7 +2204,7 @@
   // "error.objects": "Error fetching objects",
   "error.objects": "Chyba během stahování objektů",
   
-  // "error.recent-submissions": "Error fetching recent submissions",
+  // "error.recent-submissions": "Error fetching Recently Added",
   "error.recent-submissions": "Chyba během stahování posledních příspěvků",
   
   // "error.search-results": "Error fetching search results",
@@ -2256,9 +2256,9 @@
   // TODO New key - Add a translation
   "footer.link.cookies": "Cookie settings",
   
-  // "footer.link.privacy-policy": "Privacy policy",
+  // "footer.link.privacy-policy": "Takedown Policy",
   // TODO New key - Add a translation
-  "footer.link.privacy-policy": "Privacy policy",
+  "footer.link.privacy-policy": "Takedown Policy",
   
   // "footer.link.end-user-agreement":"End User Agreement",
   // TODO New key - Add a translation
@@ -3705,7 +3705,7 @@
   // "loading.objects": "Loading...",
   "loading.objects": "Načítá se...",
   
-  // "loading.recent-submissions": "Loading recent submissions...",
+  // "loading.recent-submissions": "Loading Recently Added...",
   "loading.recent-submissions": "Načítají se poslední příspěvky...",
   
   // "loading.search-results": "Loading search results...",
