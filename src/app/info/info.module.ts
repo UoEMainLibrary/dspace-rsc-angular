@@ -12,6 +12,7 @@ import { FeedbackComponent } from './feedback/feedback.component';
 import { FeedbackFormComponent } from './feedback/feedback-form/feedback-form.component';
 import { ThemedFeedbackComponent } from './feedback/themed-feedback.component';
 import { FeedbackGuard } from '../core/feedback/feedback.guard';
+import { AboutComponent } from './about/about.component';
 
 
 const DECLARATIONS = [
@@ -33,7 +34,8 @@ const DECLARATIONS = [
     InfoRoutingModule,
   ],
   declarations: [
-    ...DECLARATIONS
+    ...DECLARATIONS,
+    AboutComponent
   ],
   exports: [
     ...DECLARATIONS
