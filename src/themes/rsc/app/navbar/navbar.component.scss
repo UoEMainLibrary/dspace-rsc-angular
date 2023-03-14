@@ -1,0 +1,83 @@
+nav.navbar {
+  border-top: 1px var(--ds-header-navbar-border-top-color) solid;
+  border-bottom: 5px var(--ds-header-navbar-border-bottom-color) solid;
+  align-items: baseline;
+  color: var(--ds-header-icon-color);
+}
+
+/** Mobile menu styling **/
+@media screen and (max-width: map-get($grid-breakpoints, md)-0.02) {
+  .navbar {
+    width: 100%;
+    background-color: var(--bs-white);
+    position: absolute;
+    overflow: hidden;
+    height: 0;
+    &.open {
+      height: 100vh; //doesn't matter because wrapper is sticky
+    }
+  }
+}
+
+@media screen and (min-width: map-get($grid-breakpoints, md)) {
+  .reset-padding-md {
+    margin-left: calc(var(--bs-spacer) / -2);
+    margin-right: calc(var(--bs-spacer) / -2);
+  }
+}
+
+/* TODO remove when https://github.com/twbs/bootstrap/issues/24726 is fixed */
+.navbar-expand-md.navbar-container {
+  @media screen and (max-width: map-get($grid-breakpoints, md)-0.02) {
+    > .navbar-inner-container {
+      padding: 0 var(--bs-spacer);
+      a.navbar-brand {
+        display: none;
+      }
+      .navbar-collapsed {
+        display: none;
+      }
+    }
+    padding: 0;
+  }
+  height: 80px;
+}
+
+a.navbar-brand img {
+  max-height: var(--ds-header-logo-height);
+}
+
+.navbar-nav {
+  ::ng-deep a.nav-link {
+    color: var(--ds-navbar-link-color);
+  }
+  ::ng-deep a.nav-link:hover {
+    color: var(--ds-navbar-link-color-hover);
+  }
+}
+
+.navbar {
+  height: 9rem!important;
+}
+nav.navbar {
+  border-bottom: none!important;
+}
+.navbar-logo-top {
+  max-height: 4.5rem!important;
+  //margin-top: -3.6rem!important;
+}
+.navbar-brand {
+  margin-right: 5rem!important;
+}
+.navbar-inner-container {
+  display: inline-block!important;
+  background-image: url("/assets/images/rsc-logo/rsc-logo-lower.png");
+  background-repeat: repeat-x;
+  background-size: 24.5rem;
+  background-position:bottom left -0.8rem;
+  bottom: 0;
+}
+
+.second-navbar {
+  height: 3rem;
+}
