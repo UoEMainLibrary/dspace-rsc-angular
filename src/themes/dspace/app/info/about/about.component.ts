@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { AboutComponent as BaseComponent } from 'src/app/info/about/about.component';
+import { AboutComponent as BaseComponent } from '../../../../../app/info/about/about.component';
 
 @Component({
   selector: 'ds-about',

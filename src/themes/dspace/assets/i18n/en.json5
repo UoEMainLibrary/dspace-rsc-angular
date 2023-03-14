@@ -9,4 +9,7 @@
   // Custom component: "About"
   "info.about.breadcrumbs": "About",
 
+  // Custom component: "Accessibility"
+  "info.accessibility.breadcrumbs": "Accessibility",
+
 }
