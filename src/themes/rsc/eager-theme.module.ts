@@ -9,8 +9,12 @@ import { RootModule } from '../../app/root.module';
 import { NavbarModule } from '../../app/navbar/navbar.module';
 import { SharedBrowseByModule } from '../../app/shared/browse-by/shared-browse-by.module';
 import { ResultsBackButtonModule } from '../../app/shared/results-back-button/results-back-button.module';
-import { HomeBlurbComponent } from './app/home-page/home-blurb/home-blurb.component';
 import { HomePartnersComponent } from './app/home-page/home-partners/home-partners.component';
+import { HomeBlurbComponent } from './app/home-page/home-blurb/home-blurb.component';
+import { RecentItemListComponent } from './app/home-page/recent-item-list/recent-item-list.component';
+import { FooterComponent } from './app/footer/footer.component';
+import { AuthNavMenuComponent } from './app/shared/auth-nav-menu/auth-nav-menu.component';
+import { LogInPasswordComponent } from './app/shared/log-in/methods/password/log-in-password.component';
 
 /**
  * Add components that use a custom decorator to ENTRY_COMPONENTS as well as DECLARATIONS.
@@ -24,8 +28,13 @@ const DECLARATIONS = [
   HeaderComponent,
   HeaderNavbarWrapperComponent,
   NavbarComponent,
+  HomePartnersComponent,
   HomeBlurbComponent,
-  HomePartnersComponent
+  RecentItemListComponent,
+  FooterComponent,
+  AuthNavMenuComponent,
+  LogInPasswordComponent,
+
 ];
 
 @NgModule({

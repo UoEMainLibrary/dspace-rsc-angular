@@ -1,5 +1,5 @@
-import { Component } from '@angular/core';
-import { ThemedHomeBlurbComponent as BaseComponent } from '../../../../../app/home-page/home-blurb/themed-home-blurb.component';
+import { Component, } from '@angular/core';
+import { HomeBlurbComponent as BaseComponent } from '../../../../../app/home-page/home-blurb/home-blurb.component';
 
 @Component({
   selector: 'ds-home-blurb',

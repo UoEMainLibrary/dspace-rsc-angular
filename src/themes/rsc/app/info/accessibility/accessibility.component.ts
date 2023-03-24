@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component } from '@angular/core';
 import { AccessibilityComponent as BaseComponent } from '../../../../../app/info/accessibility/accessibility.component';
 
 @Component({

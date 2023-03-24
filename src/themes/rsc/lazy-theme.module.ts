@@ -62,12 +62,10 @@ import { ItemVersionsModule } from '../../app/item-page/versions/item-versions.m
 import { ItemSharedModule } from 'src/app/item-page/item-shared.module';
 import { AboutComponent } from './app/info/about/about.component';
 import { AccessibilityComponent } from './app/info/accessibility/accessibility.component';
-import { HomeBlurbComponent } from './app/home-page/home-blurb/home-blurb.component';
 
 const DECLARATIONS = [
   AboutComponent,
   AccessibilityComponent,
-  HomeBlurbComponent,
 ];
 
 @NgModule({
