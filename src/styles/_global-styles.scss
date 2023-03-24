@@ -253,7 +253,7 @@ ul.dso-edit-menu-dropdown > li .nav-item.nav-link {
 }
 
 // Customisations
-a {
+a, a.text-truncate {
   color: #080c54 !important;
 }
 a:hover, a:focus {
@@ -318,3 +318,12 @@ a.btn.btn-outline-primary:hover {
   background-color: #edefff!important;
 }
 
+.badge-primary {
+  background-color: transparent!important;
+}
+
+.alert-info {
+  color: #080c54!important;
+  background-color: #edefff!important;
+  border-color: #080c54!important;
+}
