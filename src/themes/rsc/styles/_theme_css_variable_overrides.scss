@@ -9,11 +9,21 @@
   --ds-header-navbar-border-bottom-color: #{$green};
 }
 
-// fixing breadcrumb link colour contrast error
-a.text-truncate {
-  color: #125774!important;
+// CUSTOMISATIONS \\
+
+// a tags
+a, a.text-truncate {
+  color: #080c54 !important;
+}
+a:hover, a:focus {
+  text-decoration: none;
+  color: #6262DA!important;
+}
+a.list-group-item:hover {
+  background-color: #f6f6f6;
 }
 
+// headers
 // skipped header level fixes
 .community-list-header {
   font-size: 2rem;
@@ -21,38 +31,126 @@ a.text-truncate {
 .community-list-second-header {
   font-size: 1.25rem;
 }
-
-/* // fixing empty link error for search results list
-div#search-sidebar-content .btn-group a {
-  content: 'test text';
-  font-size: 0rem;
-}
-i.fas.fa-list, i.fas.fa-th-large {
-  font-size: 1.5rem;
-  padding-top: 0.15rem;
-}*/
-
 // fixing skipped level header on simple item view - also fixes level header issue on full item view
 .simple-view-element-header {
   font-size: 1.25rem;
 }
+// fixing statistics page heading levels
+.statistics-header {
+  font-size: 2rem;
+}
+.m-1 h2 {
+  font-size: 1.75rem;
+}
 
+// buttons
+.badge-info {
+  background-color: #6D72AB!important;
+}
+.badge-primary {
+  background-color: transparent!important;
+}
+.btn-primary {
+  color: #fff!important; 
+  background-color: #6D72AB!important;
+  border-color: #50547f!important;
+}
+.search-filter-btn {
+  color: #fff!important;
+}
+.btn-primary:hover {
+  background-color: #373a58!important;
+  color: #fff!important;
+}
+.btn-outline-primary a:hover, 
+a.btn.btn-outline-primary:hover {
+  color: #fff!important;
+}
+.disabled-btn {
+  background-color:#373a58!important;
+}
+.btn-secondary {
+  background-color: #edefff!important;
+  color: #080c54 !important;
+}
+.btn-secondary:hover {
+  color: #6262DA !important;
+}
+
+// breadcrumbs
+.li.breadcrumb-item {
+  color: #080c54!important;
+}
+.nav-breadcrumb, .breadcrumb {
+  margin-top: 1rem;
+  background-color: #fff!important;
+}
+// fixing breadcrumb link colour contrast error
+a.text-truncate {
+  color: #080c54!important;
+}
+
+// footer
+.bottom-footer {
+  background-color: #6D72AB!important;
+}
+
+.list-group-item.active {
+  background-color: #edefff!important;
+}
+.list-group-horizontal > .list-group-item.active:hover {
+  color: #080c54!important;
+  cursor: default!important;
+}
+.page-item.active .page-link {
+  background-color: #edefff!important;
+}
+
+// on page alert
+.alert-info {
+  color: #080c54!important;
+  background-color: #edefff!important;
+  border-color: #080c54!important;
+}
+
+// tables
 // fixing/replacing full item page table for divs
+.div-table-head {
+  //display: table-header-group;
+  vertical-align: middle;
+  border-color: inherit;
+}
+.div-table-tr {
+  display: flex;
+  vertical-align: inherit;
+  border-color: inherit;
+}
+.table *, .table *:before, .table *:after,
+.div-table-tr *, .div-table-tr *:before, .div-table-tr *:after,
+.div-table-head *, .div-table-head *:before, .div-table-head *:after {
+  box-sizing: unset!important;
+  -webkit-box-sizing: unset!important;
+  -moz-box-sizing: unset!important;
+}
+.div-table-th {
+  font-weight: bold;
+}
+.div-table-th, .div-table-td {
+  vertical-align: bottom;
+  border: 1px solid #dee2e6;
+}
 .div-table-body {
   vertical-align: middle;
   border-color: inherit;
   color: #343a40;
 }
-
 .div-table-body .div-table-row:nth-of-type(odd) {
   background-color: #f8f9fa;
 }
-
 .div-table-row {
   width: 100%;
   display: table;
 }
-
 .div-table-column {
   display: table-cell;
   padding: 0.75rem;
@@ -60,17 +158,11 @@ i.fas.fa-list, i.fas.fa-th-large {
   border-top: 1px solid #dee2e6;
   width: 33.3%;
 }
-
 .div-table-column.div-table-language {
   text-align: right;
   padding-right: 4rem;
 }
-
-// fixing statistics page heading levels
-.statistics-header {
-  font-size: 2rem;
-}
-.m-1 h2 {
-  font-size: 1.75rem;
+.div-table-summery {
+  padding-right: 0.76rem;
 }
 
