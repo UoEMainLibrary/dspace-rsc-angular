@@ -56,7 +56,7 @@ a.navbar-brand img {
   }
 }
 
-.navbar {
+.navbar-limited-options {
   height: 9rem!important;
 }
 nav.navbar {
@@ -69,14 +69,24 @@ nav.navbar {
   margin-right: 5rem!important;
 }
 .navbar-inner-container {
-  display: inline-block!important;
   background-image: url("/assets/images/rsc-logo/rsc-logo-lower.png");
   background-repeat: repeat-x;
   background-size: 24.5rem;
   background-position:bottom left -0.8rem;
   bottom: 0;
 }
+.navbar-float-block{
+  display: inline-block!important;
+}
 
 .second-navbar {
   height: 3rem;
+}
+
+// New nav options included
+.navbar-full-options {
+  height: 10rem!important;
+}
+.navbar-float-block-brand {
+  margin-top: -3rem!important;
 }

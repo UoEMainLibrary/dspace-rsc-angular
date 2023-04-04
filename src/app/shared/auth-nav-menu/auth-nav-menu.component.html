@@ -1,4 +1,4 @@
-<ul class="navbar-nav nav-float-right" [ngClass]="{'mr-auto': (isXsOrSm$ | async)}">
+<ul class="navbar-nav" [ngClass]="{'mr-auto': (isXsOrSm$ | async)}">
   <li *ngIf="!(isAuthenticated | async) && !(isXsOrSm$ | async) && (showAuth | async)" class="nav-item"
       (click)="$event.stopPropagation();">
     <div ngbDropdown #loginDrop display="dynamic" placement="bottom-right" class="d-inline-block nav-item-border" @fadeInOut>
