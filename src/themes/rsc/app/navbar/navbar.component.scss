@@ -68,12 +68,32 @@ nav.navbar {
 .navbar-brand {
   margin-right: 5rem!important;
 }
+@media (max-width:1200px)
+{
+  .navbar-brand {
+    margin-right: 1rem!important;
+  }
+}
 .navbar-inner-container {
   background-image: url("/assets/images/rsc-logo/rsc-logo-lower.png");
   background-repeat: repeat-x;
   background-size: 24.5rem;
   background-position:bottom left -0.8rem;
   bottom: 0;
+}
+@media (max-width:767px) {
+  .navbar-inner-container {
+    background-image: url("/assets/images/rsc-logo/rsc-logo-lower.png");
+    background-repeat: repeat-x;
+    background-size: 16rem;
+    background-position: none;
+    bottom: 0;
+    margin-top: -0.8rem;
+    margin-right: 1.1rem;
+  }
+  ul.navbar-nav.me-auto.mb-2.mb-lg-0.h-100{
+    margin-top: 3.2rem;
+  }
 }
 .navbar-float-block{
   display: inline-block!important;
@@ -84,8 +104,25 @@ nav.navbar {
 }
 
 // New nav options included
+@media (max-width:991px){
+  div#collapsingNav {
+    visibility: hidden;
+    margin-left: -6.5rem;
+  }
+}
+@media (max-width:767px){
+  div#collapsingNav {
+    visibility: visible;
+    margin-left: auto;
+  }
+}
 .navbar-full-options {
   height: 10rem!important;
+}
+@media (max-width:767px) {
+  .navbar-full-options {
+    height: 3rem!important;
+  }
 }
 .navbar-float-block-brand {
   margin-top: -3rem!important;

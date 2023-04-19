@@ -29,6 +29,11 @@ body {
   margin-top: var(--ds-content-spacing);
   margin-bottom: var(--ds-content-spacing);
 }
+@media (max-width:767){
+  .main-content{
+    margin-top: 4rem!important;
+  }
+}
 
 .alert.hide {
   padding: 0;
@@ -250,4 +255,8 @@ ul.dso-edit-menu-dropdown > li .nav-item.nav-link {
 .table th,
 .table td {
   vertical-align: middle;
+}
+
+.login-logo, .logout-logo {
+  display: none!important;
 }
