@@ -183,7 +183,7 @@ a.text-truncate {
   color: #a9a9fe !important;
 }
 
-@media (min-width: 576px){
+@media (max-width: 576px){
   .container-sm, .container {
     max-width: 100%!important;
   }
