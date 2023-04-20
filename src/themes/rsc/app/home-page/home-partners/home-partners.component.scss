@@ -2,15 +2,28 @@
     margin-top: 2rem;
 }
 .partner-container {
-    height:7.8rem;
+    height:10rem;
     margin-bottom: 1rem;
 }
 .partner-logo img {
     max-height:7.8rem;
     max-width:12rem;
 }
+@media (max-width:724px){
+    .partner-logo img {
+        max-width:10rem!important;
+    }
+}
 .partner-logo-offset {
     margin-left: 0.8rem;
+}
+.partner-img-offset {
+    margin-top: 5%;
+}
+@media (max-width:767px) {
+    .partner-img-offset {
+        margin-top: 20%;
+    }
 }
 .partner-container a {
     transition: transform .5s;
@@ -18,16 +31,86 @@
 .partner-container a:hover {
     transform: scale(1.1);
 }
+@media (max-width:724px){
+    .partner-container a:hover {
+        transform: scale(1);    
+    }
+}
 .partner-desc {
     position: relative;
 }
 .partner-desc p {
     margin-right: 5rem;
+    margin-left: 2rem;
     margin-bottom: 0rem!important;
     position: absolute;
     top: 30%;
     font-size: 18px;
 }
+@media (max-width:767px){
+    .partner-desc p {
+        font-size: 16px;
+    }
+    .partner-desc-med p {
+        top: 15%;
+    }
+}
+@media (max-width:724px){
+    .partner-desc p {
+        margin-right: 3rem;
+        top: 20%;
+    }
+}
+@media (max-width:624px){
+    .partner-desc p {
+        margin-right: 1.5rem;
+    }
+}
+@media (max-width:524px){
+    .partner-desc p {
+        font-size: 14px;
+        top: 35%;
+    }
+    .partner-desc-med p {
+        top: 25%;
+    }
+}
 .partner-desc-long p {
     top: 15%!important;
+}
+@media (max-width:992px){
+    .partner-desc-long p {
+        top: 1%!important;
+    }
+}
+@media (max-width:574px){
+    .partner-desc-long p {
+        top: 10%!important;
+    }
+}
+
+@media (max-width:400px){
+    .partner-container {
+        height: 8rem;
+    }
+    .partner-container:hover {
+        opacity: 0.75;
+        //-webkit-filter: sepia(80%) saturate(478%) brightness(150%) hue-rotate(538deg);
+    }
+    .partner-desc {
+        display: none;
+    }
+    .partner-logo {
+        margin-left: 30%;
+    }
+    .partner-logo-img {
+        margin-left: -30%!important;
+    }
+    .partner-logo-img-md {
+        margin-left: -15%!important;
+        margin-top: -10%;
+    }
+    .partner-logo-img-ht{
+        margin-top: 15%;
+    }
 }
