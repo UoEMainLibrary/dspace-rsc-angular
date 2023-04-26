@@ -93,7 +93,7 @@ export class MenuResolver implements Resolve<boolean> {
    */
   createPublicMenu$(): Observable<boolean> {
     const menuList: any[] = [
-      /* Communities and Collections tree */
+      /* Communities & Collections tree */
       {
         id: `browse_global_communities_and_collections`,
         active: false,
