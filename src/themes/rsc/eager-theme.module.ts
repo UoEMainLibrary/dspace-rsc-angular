@@ -14,7 +14,6 @@ import { HomeBlurbComponent } from './app/home-page/home-blurb/home-blurb.compon
 import { RecentItemListComponent } from './app/home-page/recent-item-list/recent-item-list.component';
 import { FooterComponent } from './app/footer/footer.component';
 import { AuthNavMenuComponent } from './app/shared/auth-nav-menu/auth-nav-menu.component';
-import { LogInPasswordComponent } from './app/shared/log-in/methods/password/log-in-password.component';
 
 /**
  * Add components that use a custom decorator to ENTRY_COMPONENTS as well as DECLARATIONS.
@@ -33,7 +32,6 @@ const DECLARATIONS = [
   RecentItemListComponent,
   FooterComponent,
   AuthNavMenuComponent,
-  LogInPasswordComponent,
 
 ];
 
