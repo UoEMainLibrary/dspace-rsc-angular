@@ -75,7 +75,7 @@ nav.navbar {
   }
 }
 .navbar-inner-container {
-  background-image: url("/assets/images/rsc-logo/rsc-logo-lower.png");
+  background-image: url("/assets/rsc/images/rsc-logo/rsc-logo-lower.png");
   background-repeat: repeat-x;
   background-size: 24.5rem;
   background-position:bottom left -0.8rem;
@@ -83,7 +83,7 @@ nav.navbar {
 }
 @media (max-width:767px) {
   .navbar-inner-container {
-    background-image: url("/assets/images/rsc-logo/rsc-logo-lower.png");
+    background-image: url("/assets/rsc/images/rsc-logo/rsc-logo-lower.png");
     background-repeat: repeat-x;
     background-size: 16rem;
     background-position: none;
