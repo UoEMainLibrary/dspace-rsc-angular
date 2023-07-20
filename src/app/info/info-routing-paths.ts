@@ -3,8 +3,6 @@ import { getInfoModulePath } from '../app-routing-paths';
 export const END_USER_AGREEMENT_PATH = 'end-user-agreement';
 export const PRIVACY_PATH = 'privacy';
 export const FEEDBACK_PATH = 'feedback';
-export const ABOUT_PATH = 'about';
-export const ACCESSIBILITY_PATH = 'accessibility';
 
 export function getEndUserAgreementPath() {
     return getSubPath(END_USER_AGREEMENT_PATH);
@@ -20,12 +18,4 @@ export function getFeedbackPath() {
 
 function getSubPath(path: string) {
     return `${getInfoModulePath()}/${path}`;
-}
-
-export function getAboutPath() {
-    return getSubPath(ABOUT_PATH);
-}
-
-export function getAccessibilityPath() {
-    return getSubPath(ACCESSIBILITY_PATH);
 }
