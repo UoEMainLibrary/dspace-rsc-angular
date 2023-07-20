@@ -4,7 +4,7 @@
   "home.top-level-communities.head": "Communities in ROS",
 
   // DSpace default: "DSpace Angular :: "
-  "repository.title.prefix": "ROS :: ",
+  "repository.title.prefix": "Research Scotland ",
 
   // Custom component: "About"
   "info.about.breadcrumbs": "About",
