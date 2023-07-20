@@ -59,11 +59,6 @@
                 "input": "src/themes/dspace/styles/theme.scss",
                 "inject": false,
                 "bundleName": "dspace-theme"
-              },
-              {
-                "input": "src/themes/rsc/styles/theme.scss",
-                "inject": false,
-                "bundleName": "rsc-theme"
               }
             ],
             "scripts": [],
@@ -156,9 +151,9 @@
             ],
             "styles": [
               {
-                "input": "src/rsc/styles/base-theme.scss",
+                "input": "src/styles/base-theme.scss",
                 "inject": false,
-                "bundleName": "rsc-theme"
+                "bundleName": "base-theme"
               }
             ],
             "scripts": []
@@ -271,16 +266,26 @@
           "options": {
             "lintFilePatterns": [
               "src/**/*.ts",
-              "src/**/*.html"
+              "src/**/*.html",
+              "src/**/*.json5"
             ]
           }
         }
       }
     }
   },
-  "defaultProject": "dspace-angular",
   "cli": {
     "analytics": false,
-    "defaultCollection": "@angular-eslint/schematics"
+    "schematicCollections": [
+      "@angular-eslint/schematics"
+    ]
+  },
+  "schematics": {
+    "@angular-eslint/schematics:application": {
+      "setParserOptionsProject": true
+    },
+    "@angular-eslint/schematics:library": {
+      "setParserOptionsProject": true
+    }
   }
 }
