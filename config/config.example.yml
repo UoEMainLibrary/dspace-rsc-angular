@@ -187,9 +187,6 @@ languages:
   - code: gd
     label: Gàidhlig
     active: true
-  - code: it
-    label: Italiano
-    active: true
   - code: lv
     label: Latviešu
     active: true
@@ -216,9 +213,6 @@ languages:
     active: true
   - code: tr
     label: Türkçe
-    active: true
-  - code: vi
-    label: Tiếng Việt
     active: true
   - code: kk
     label: Қазақ

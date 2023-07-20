@@ -12,16 +12,22 @@ import { ThemedHomePageComponent } from './themed-home-page.component';
 import { RecentItemListComponent } from './recent-item-list/recent-item-list.component';
 import { JournalEntitiesModule } from '../entity-groups/journal-entities/journal-entities.module';
 import { ResearchEntitiesModule } from '../entity-groups/research-entities/research-entities.module';
-import { ThemedTopLevelCommunityListComponent } from './top-level-community-list/themed-top-level-community-list.component';
+import { HomeBlurbComponent } from './home-blurb/home-blurb.component';
+import { ThemedHomeBlurbComponent } from './home-blurb/themed-home-blurb.component';
+import { HomePartnersComponent } from './home-partners/home-partners.component';
+import { ThemedHomePartnersComponent } from './home-partners/themed-home-partners.component';
 
 const DECLARATIONS = [
   HomePageComponent,
   ThemedHomePageComponent,
   TopLevelCommunityListComponent,
-  ThemedTopLevelCommunityListComponent,
   ThemedHomeNewsComponent,
   HomeNewsComponent,
-  RecentItemListComponent
+  RecentItemListComponent,
+  HomeBlurbComponent,
+  ThemedHomeBlurbComponent,
+  HomePartnersComponent,
+  ThemedHomePartnersComponent
 ];
 
 @NgModule({
@@ -35,6 +41,8 @@ const DECLARATIONS = [
   ],
   declarations: [
     ...DECLARATIONS,
+    HomeBlurbComponent,
+    HomePartnersComponent,
   ],
   exports: [
     ...DECLARATIONS,
