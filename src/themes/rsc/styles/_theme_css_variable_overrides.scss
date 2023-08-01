@@ -39,6 +39,7 @@ a.list-group-item:hover {
 // fixing skipped level header on simple item view - also fixes level header issue on full item view
 .simple-view-element-header {
   font-size: 1.25rem;
+  margin-bottom: 1px;
 }
 // fixing statistics page heading levels
 .statistics-header {
