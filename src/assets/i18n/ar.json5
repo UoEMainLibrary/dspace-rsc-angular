@@ -3394,6 +3394,10 @@
   // TODO New key - Add a translation
   "item.search.title": "DSpace Angular :: Item Search",
 
+  // "item.page.journal-title": "Is Part Of",
+  // TODO New key - Add a translation
+  "item.page.is-part-of": "Is Part Of",
+
 
 
   // "item.page.abstract": "Abstract",
@@ -3490,7 +3494,11 @@
 
   // "item.page.uri": "URI",
   // TODO New key - Add a translation
-  "item.page.uri": "URI",
+  "item.page.uri": "Link",
+
+  // "item.page.doi": "DOI",
+  // TODO New key - Add a translation
+  "item.page.doi": "DOI",
 
   // "item.page.bitstreams.view-more": "Show more",
   // TODO New key - Add a translation

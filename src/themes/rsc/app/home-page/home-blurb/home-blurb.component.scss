@@ -1,0 +1,12 @@
+.home-blurb {
+    margin-bottom: 1rem;
+}
+.home-blurb h1 {
+    visibility: hidden;
+    margin-top: -2.5rem;
+}
+@media (max-width:767px) {
+    .home-blurb {
+        margin-top: 1.5rem;
+    }
+}

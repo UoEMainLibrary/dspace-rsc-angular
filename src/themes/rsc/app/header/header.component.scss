@@ -1,0 +1,38 @@
+@media screen and (min-width: map-get($grid-breakpoints, md)) {
+    nav.navbar {
+      display: none;
+    }
+    .header {
+      background-color: var(--ds-header-bg);
+    }
+  }
+  
+  .navbar-brand img {
+    @media screen and (max-width: map-get($grid-breakpoints, md)) {
+      height: var(--ds-header-logo-height-xs);
+    }
+  }
+  .navbar-toggler .navbar-toggler-icon {
+    background-image: none !important;
+    line-height: 1.5;
+    color: var(--bs-link-color);
+  }
+  
+
+  .rsc-logo {
+    width: 20rem;
+    margin-top: 0.8rem;
+  }
+
+  nav.navbar.navbar-light.navbar-expand-md.flex-shrink-0.px-0 {
+    display: flex;
+    margin-top: 3rem;
+    // margin-right: 3rem;
+  }
+.container {
+  background-image: url("/assets/rsc/images/rsc-logo/rsc-logo-lower.png");
+  background-repeat: repeat-x;
+  background-size: 23.5rem;
+  background-position:bottom left -0.8rem;
+  height: 10rem;
+}
