@@ -2673,7 +2673,7 @@
 
   // "item.edit.bitstreams.bundle.load.more": "Load more",
   // TODO New key - Add a translation
-  "item.edit.bitstreams.bundle.load.more": "Load more",
+  "item.edit.bitstreams.bundle.load.more": "View more",
 
   // "item.edit.bitstreams.bundle.name": "BUNDLE: {{ name }}",
   // TODO New key - Add a translation
@@ -6619,7 +6619,7 @@
 
   // "vocabulary-treeview.load-more": "Load more",
   // TODO New key - Add a translation
-  "vocabulary-treeview.load-more": "Load more",
+  "vocabulary-treeview.load-more": "View more",
 
   // "vocabulary-treeview.search.form.reset": "Reset",
   // TODO New key - Add a translation
