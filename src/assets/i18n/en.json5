@@ -3868,21 +3868,21 @@
 
   "sorting.DESC": "Descending",
 
-  "sorting.dc.title.ASC": "Title Ascending",
+  "sorting.dc.title.ASC": "Title A-Z",
 
-  "sorting.dc.title.DESC": "Title Descending",
+  "sorting.dc.title.DESC": "Title Z-A",
 
   "sorting.score.ASC": "Least Relevant",
 
   "sorting.score.DESC": "Most Relevant",
 
-  "sorting.dc.date.issued.ASC": "Date Issued Ascending",
+  "sorting.dc.date.issued.ASC": "Oldest",
 
   "sorting.dc.date.issued.DESC": "Date Issued Descending",
 
-  "sorting.dc.date.accessioned.ASC": "Accessioned Date Ascending",
+  "sorting.dc.date.accessioned.ASC": "Oldest",
 
-  "sorting.dc.date.accessioned.DESC": "Accessioned Date Descending",
+  "sorting.dc.date.accessioned.DESC": "Newest",
 
   "sorting.lastModified.ASC": "Last modified Ascending",
 
