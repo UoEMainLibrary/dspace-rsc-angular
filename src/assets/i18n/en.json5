@@ -2824,6 +2824,8 @@
 
   "menu.section.browse_global_by_author": "By Author",
 
+  "menu.section.browse_global_by_publisher": "By Publisher",
+
   "menu.section.browse_global_by_dateissued": "By Issue Date",
 
   "menu.section.browse_global_by_subject": "By Subject",
