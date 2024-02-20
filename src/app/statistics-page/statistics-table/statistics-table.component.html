@@ -10,7 +10,7 @@
       <div class="div-table-body">
           <div class="div-table-row">
             <div class="div-table-stats-column-1"></div>
-            <div class="div-table-stats-column-2 div-table-stats-clolumn-2-bold" 
+            <div class="div-table-stats-column-2 div-table-stats-column-2-bold" 
               scope="col"
               *ngFor="let header of headers"
               class="{{header}}-header">
@@ -20,7 +20,7 @@
           <div class="div-table-row" 
                 *ngFor="let point of report.points"
                 class="{{point.id}}-data">
-            <div class="div-table-stats-column-1 div-table-stats-clolumn-1-bold" 
+            <div class="div-table-stats-column-1 div-table-stats-column-1-bold" 
                   scope="row" 
                   data-test="statistics-label">
               {{ getLabel(point) | async }}
