@@ -1896,6 +1896,13 @@
 
   "info.feedback.page_help": "Tha page related to your feedback",
 
+  // costom 
+  "info.accessibility.breadcrumbs": "Accessibility",
+
+  "info.accessibility.head": "Accessibility",
+
+  "info.accessibility.title": "Accessibility",
+
   "item.alerts.private": "This item is non-discoverable",
 
   "item.alerts.withdrawn": "This item has been withdrawn",
