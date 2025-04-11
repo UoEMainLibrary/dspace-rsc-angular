@@ -1,0 +1,9 @@
+<div class="container">
+    <ds-themed-home-blurb></ds-themed-home-blurb>
+    <ds-themed-search-form [inPlaceSearch]="false" [searchPlaceholder]="'home.search-form.placeholder' | translate"></ds-themed-search-form>
+    <ds-themed-home-partners></ds-themed-home-partners>
+    <ng-container *ngIf="(site$ | async) as site">
+        <ds-view-tracker [object]="site"></ds-view-tracker>
+    </ng-container>
+    <ds-recent-item-list *ngIf="recentSubmissionspageSize>0"></ds-recent-item-list>
+</div>

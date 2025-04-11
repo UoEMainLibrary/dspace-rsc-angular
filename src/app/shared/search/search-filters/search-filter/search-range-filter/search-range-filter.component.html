@@ -26,9 +26,6 @@
                     />
                 </label>
             </div>
-            <button class="sr-only" type="submit">
-                {{'search.filters.search.submit' | translate}}
-            </button>
         </form>
 
         <ng-container *ngIf="shouldShowSlider()">
@@ -38,7 +35,7 @@
                         [(ngModel)]="range" ngDefaultControl>
             </nouislider>
         </ng-container>
-      <ng-container *ngFor="let page of (facetValues$ | async)">
+      <ng-container *ngFor="let page of (filterValues$ | async)?.payload">
         <div [@facetLoad]="animationState">
           <ds-search-facet-range-option *ngFor="let value of page.page; trackBy: trackUpdate" [filterConfig]="filterConfig" [filterValue]="value" [inPlaceSearch]="inPlaceSearch"></ds-search-facet-range-option>
           </div>
